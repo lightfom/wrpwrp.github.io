@@ -8,7 +8,7 @@
 <meta name="keywords" content="Gridea静态个人博客">
 <meta name="description" content="温故而知新">
 <meta name="theme-color" content="#000">
-<title>关于 | HN-wrp</title>
+<title>题解 [AGC030F] Permutation and Minimum | HN-wrp</title>
 <link rel="shortcut icon" href="/favicon.ico?v=1602835033124">
 <link rel="stylesheet" href="/media/css/pisces.css">
 <link rel="stylesheet" href="/media/fonts/font-awesome.css">
@@ -38,7 +38,7 @@
 
 
 
-  <meta name="description" content="关于" />
+  <meta name="description" content="题解 [AGC030F] Permutation and Minimum" />
   <meta name="keywords" content="" />
 </head>
 
@@ -320,8 +320,8 @@
           <div class="section bg-color post post-page">
             <section class="post-header">
   <h1 class="post-title">
-    <a class="post-title-link" href="https://lightfom.github.io/post/about/">
-      关于
+    <a class="post-title-link" href="https://lightfom.github.io/post/ti-jie-agc030f-permutation-and-minimum/">
+      题解 [AGC030F] Permutation and Minimum
     </a>
   </h1>
   <div class="post-meta">
@@ -329,33 +329,131 @@
     <span class="meta-item pc-show">
       <i class="fa fa-calendar-o"></i>
       <span class="language" data-lan="publish">发布于</span>
-      <span class="publish-time" data-t="2019-01-25 19:09:48">2019-01-25</span>
+      <span class="publish-time" data-t="2020-10-16 15:56:30">2020-10-16</span>
       <span class="post-meta-divider pc-show">|</span>
     </span>
     
     <span class="meta-item">
       <i class="fa fa-clock-o"></i>
-      <span>1<span class="language" data-lan="minute">分钟</span></span>
+      <span>4<span class="language" data-lan="minute">分钟</span></span>
     </span>
     <span class="meta-item">
       <span class="post-meta-divider">|</span>
       <i class="fa fa-file-word-o"></i>
-      <span>31<span class="pc-show language" data-lan="words">字数</span></span>
+      <span>610<span class="pc-show language" data-lan="words">字数</span></span>
     </span>
     
   </div>
 </section>
             <div class="post-body next-md-body" id="post_body">
-              <blockquote>
-<p>欢迎来到我的小站呀，很高兴遇见你！🤝</p>
-</blockquote>
-<h2 id="关于本站">🏠 关于本站</h2>
-<h2 id="博主是谁">👨‍💻 博主是谁</h2>
-<h2 id="兴趣爱好">⛹ 兴趣爱好</h2>
-<h2 id="联系我呀">📬 联系我呀</h2>
+              <p>我们把位置在<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>(</mo><mn>2</mn><mi>i</mi><mo>−</mo><mn>1</mn><mo separator="true">,</mo><mn>2</mn><mi>i</mi><mo>)</mo></mrow><annotation encoding="application/x-tex">(2i - 1, 2i)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord">2</span><span class="mord mathdefault">i</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">1</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord">2</span><span class="mord mathdefault">i</span><span class="mclose">)</span></span></span></span>的两个点叫做一对点。</p>
+<p>显然如果这对点两个都被限定了直接丢掉完事。</p>
+<p>如果有一个没有被限定就先留下来。</p>
+<p>注意到其他的形如<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>(</mo><mo>−</mo><mn>1</mn><mo separator="true">,</mo><mo>−</mo><mn>1</mn><mo>)</mo></mrow><annotation encoding="application/x-tex">(-1, -1)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord">−</span><span class="mord">1</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord">−</span><span class="mord">1</span><span class="mclose">)</span></span></span></span>的顺序是可以随便变化的， 所以先不考虑， 最后乘上一个阶乘就可以了。</p>
+<p>考虑用<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>f</mi><mo>(</mo><mi>i</mi><mo separator="true">,</mo><mi>j</mi><mo separator="true">,</mo><mi>k</mi><mo>)</mo></mrow><annotation encoding="application/x-tex">f(i, j, k)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.10764em;">f</span><span class="mopen">(</span><span class="mord mathdefault">i</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault" style="margin-right:0.05724em;">j</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault" style="margin-right:0.03148em;">k</span><span class="mclose">)</span></span></span></span>表示当前填第<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>i</mi></mrow><annotation encoding="application/x-tex">i</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.65952em;vertical-align:0em;"></span><span class="mord mathdefault">i</span></span></span></span>个数， 剩下<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>j</mi></mrow><annotation encoding="application/x-tex">j</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.85396em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.05724em;">j</span></span></span></span>个<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>(</mo><mo>−</mo><mn>1</mn><mo separator="true">,</mo><mi>d</mi><mo>)</mo></mrow><annotation encoding="application/x-tex">(-1, d)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord">−</span><span class="mord">1</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault">d</span><span class="mclose">)</span></span></span></span>对， 这种对是自己搞出来的， 还剩下<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>k</mi></mrow><annotation encoding="application/x-tex">k</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.03148em;">k</span></span></span></span>个<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>(</mo><mo>−</mo><mn>1</mn><mo separator="true">,</mo><mi>e</mi><mo>)</mo></mrow><annotation encoding="application/x-tex">(-1, e)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord">−</span><span class="mord">1</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault">e</span><span class="mclose">)</span></span></span></span>对， 是被限定了的。</p>
+<p>从这里可以发现， 我们的<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>i</mi></mrow><annotation encoding="application/x-tex">i</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.65952em;vertical-align:0em;"></span><span class="mord mathdefault">i</span></span></span></span>应该从大到小枚举， 这样才可以避免后效性， 否则前面选了一个数， 后面就没法改变这一对的值， 从而出现后效性。</p>
+<p>然后就直接分类讨论<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>d</mi><mi>p</mi></mrow><annotation encoding="application/x-tex">dp</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">d</span><span class="mord mathdefault">p</span></span></span></span>就好了。</p>
+<pre><code class="language-cpp">#include &lt;cmath&gt;
+#include &lt;cstdio&gt;
+#include &lt;vector&gt;
+#include &lt;cstring&gt;
+#include &lt;algorithm&gt;
+#include &lt;iostream&gt;
+
+using namespace std;
+
+#define R register
+const int N = 600 + 5;
+const int P = 1e9 + 7;
+
+inline int read() {
+	int x = 0, f = 1; char a = getchar();
+	for(; a &gt; '9' || a &lt; '0'; a = getchar()) if(a == '-') f = -1;
+	for(; a &gt;= '0' &amp;&amp; a &lt;= '9'; a = getchar()) x = x * 10 + a - '0';
+	return x * f;
+}
+
+int n;
+int a[N], ok[N], vis[N];
+int f[N][N][N];
+int S[N];
+int tot1 = 0, tot2 = 0;
+
+int main() {
+	#ifdef IN
+	freopen(&quot;a.in&quot;, &quot;r&quot;, stdin);
+	//freopen(&quot;.out&quot;, &quot;w&quot;, stdout);
+	#endif
+	n = read(); n &lt;&lt;= 1;
+	for(R int i = 1; i &lt;= n; i ++) a[i] = read();
+	for(R int i = 1; i &lt;= n; i += 2) {
+		if(a[i] &gt; 0 &amp;&amp; a[i + 1] &gt; 0) {
+			vis[a[i]] = 1;
+			vis[a[i + 1]] = 1;
+			continue;
+		}
+		else {
+			if(a[i] == -1 &amp;&amp; a[i + 1] == -1) tot1 ++;
+			else {
+				tot2 ++;
+				if(a[i + 1] == -1) ok[a[i]] = 1;
+				else ok[a[i + 1]] = 1; 		
+			}
+		}
+	}
+	int m = 0;
+	for(R int i = n; i &gt;= 1; i --) if(vis[i] == 0) S[++ m] = i;
+	f[0][0][0] = 1;
+	for(R int i = 1; i &lt;= m; i ++) 
+		for(R int j = 0; j &lt;= n; j ++)
+			for(R int k = 0; k &lt;= n; k ++) {
+				if(! ok[S[i]]) {
+					if(j) f[i][j][k] = (f[i][j][k] + f[i - 1][j - 1][k]) % P;
+					f[i][j][k] = (f[i][j][k] + f[i - 1][j + 1][k]) % P;
+					f[i][j][k] = (f[i][j][k] + 1LL * f[i - 1][j][k + 1] * (k + 1) % P) % P;
+				}
+				else {
+					f[i][j][k + 1] = (f[i][j][k + 1] + f[i - 1][j][k]) % P;
+					if(j) f[i][j - 1][k] = (f[i][j - 1][k] + f[i - 1][j][k]) % P;
+				}
+			}
+	int ans = f[m][0][0];
+	for(R int i = 1; i &lt;= tot1; i ++) ans = 1LL * ans * i % P;
+	printf(&quot;%d\n&quot;, ans);
+	return 0;
+}
+</code></pre>
 
             </div>
             
+            
+              <div class="post-footer">
+  <ul class="post-copyright">
+    <li class="post-copyright-author">
+      <strong class="language" data-lan="author">本文作者：</strong>
+      HN-wrp
+    </li>
+    <li class="post-copyright-link">
+      <strong class="language" data-lan="link">本文链接：</strong>
+      <a href="https://lightfom.github.io/post/ti-jie-agc030f-permutation-and-minimum/" title="题解 [AGC030F] Permutation and Minimum">https://lightfom.github.io/post/ti-jie-agc030f-permutation-and-minimum/</a>
+    </li>
+    <li class="post-copyright-license">
+      <strong class="language" data-lan="copyright">版权声明： </strong>
+      本博客所有文章除特别声明外，均采用<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fa fa-fw fa-creative-commons"></i> BY-NC-SA</a> 许可协议。转载请注明出处！
+    </li>
+  </ul>
+  <div class="tags">
+    
+  </div>
+  <div class="nav">
+    <div class="nav-prev">
+      
+    </div>
+    <div class="nav-next">
+      
+    </div>
+  </div>
+</div>
             
             
   <script src="https://cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js"></script>
