@@ -1,82 +1,82 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://lightfom.github.io</id>
+    <id>https://wrp.github.io</id>
     <title>HN-wrp</title>
-    <updated>2020-10-16T10:38:01.419Z</updated>
+    <updated>2020-10-16T23:54:29.359Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://lightfom.github.io"/>
-    <link rel="self" href="https://lightfom.github.io/atom.xml"/>
+    <link rel="alternate" href="https://wrp.github.io"/>
+    <link rel="self" href="https://wrp.github.io/atom.xml"/>
     <subtitle>温故而知新</subtitle>
-    <logo>https://lightfom.github.io/images/avatar.png</logo>
-    <icon>https://lightfom.github.io/favicon.ico</icon>
+    <logo>https://wrp.github.io/images/avatar.png</logo>
+    <icon>https://wrp.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, HN-wrp</rights>
     <entry>
         <title type="html"><![CDATA[线性基学习笔记]]></title>
-        <id>https://lightfom.github.io/post/xian-xing-ji-xue-xi-bi-ji/</id>
-        <link href="https://lightfom.github.io/post/xian-xing-ji-xue-xi-bi-ji/">
+        <id>https://wrp.github.io/post/xian-xing-ji-xue-xi-bi-ji/</id>
+        <link href="https://wrp.github.io/post/xian-xing-ji-xue-xi-bi-ji/">
         </link>
         <updated>2020-10-16T08:08:47.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[Luogu P2056 [ZJOI2007]捉迷藏]]></title>
-        <id>https://lightfom.github.io/post/luogu-p2056-zjoi2007zhuo-mi-cang/</id>
-        <link href="https://lightfom.github.io/post/luogu-p2056-zjoi2007zhuo-mi-cang/">
+        <id>https://wrp.github.io/post/luogu-p2056-zjoi2007zhuo-mi-cang/</id>
+        <link href="https://wrp.github.io/post/luogu-p2056-zjoi2007zhuo-mi-cang/">
         </link>
         <updated>2020-10-16T08:08:20.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[Luogu [ZJOI2015]幻想乡战略游戏]]></title>
-        <id>https://lightfom.github.io/post/luogu-zjoi2015huan-xiang-xiang-zhan-lue-you-xi/</id>
-        <link href="https://lightfom.github.io/post/luogu-zjoi2015huan-xiang-xiang-zhan-lue-you-xi/">
+        <id>https://wrp.github.io/post/luogu-zjoi2015huan-xiang-xiang-zhan-lue-you-xi/</id>
+        <link href="https://wrp.github.io/post/luogu-zjoi2015huan-xiang-xiang-zhan-lue-you-xi/">
         </link>
         <updated>2020-10-16T08:07:21.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[P6329 【模板】点分树 | 震波 【点分树简介】]]></title>
-        <id>https://lightfom.github.io/post/p6329-mo-ban-dian-fen-shu-or-zhen-bo-dian-fen-shu-jian-jie/</id>
-        <link href="https://lightfom.github.io/post/p6329-mo-ban-dian-fen-shu-or-zhen-bo-dian-fen-shu-jian-jie/">
+        <id>https://wrp.github.io/post/p6329-mo-ban-dian-fen-shu-or-zhen-bo-dian-fen-shu-jian-jie/</id>
+        <link href="https://wrp.github.io/post/p6329-mo-ban-dian-fen-shu-or-zhen-bo-dian-fen-shu-jian-jie/">
         </link>
         <updated>2020-10-16T08:05:58.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[ubuntu下c++ Gedit配置]]></title>
-        <id>https://lightfom.github.io/post/ubuntu-xia-c-gedit-pei-zhi/</id>
-        <link href="https://lightfom.github.io/post/ubuntu-xia-c-gedit-pei-zhi/">
+        <id>https://wrp.github.io/post/ubuntu-xia-c-gedit-pei-zhi/</id>
+        <link href="https://wrp.github.io/post/ubuntu-xia-c-gedit-pei-zhi/">
         </link>
         <updated>2020-10-16T08:05:38.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[AT1983 [AGC001E] BBQ Hard]]></title>
-        <id>https://lightfom.github.io/post/at1983-agc001e-bbq-hard/</id>
-        <link href="https://lightfom.github.io/post/at1983-agc001e-bbq-hard/">
+        <id>https://wrp.github.io/post/at1983-agc001e-bbq-hard/</id>
+        <link href="https://wrp.github.io/post/at1983-agc001e-bbq-hard/">
         </link>
         <updated>2020-10-16T08:05:05.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[[wqs二分模板] CF739E Gosha is hunting ]]></title>
-        <id>https://lightfom.github.io/post/wqs-er-fen-mo-ban-cf739e-gosha-is-hunting/</id>
-        <link href="https://lightfom.github.io/post/wqs-er-fen-mo-ban-cf739e-gosha-is-hunting/">
+        <id>https://wrp.github.io/post/wqs-er-fen-mo-ban-cf739e-gosha-is-hunting/</id>
+        <link href="https://wrp.github.io/post/wqs-er-fen-mo-ban-cf739e-gosha-is-hunting/">
         </link>
         <updated>2020-10-16T08:04:34.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[数学小算法]]></title>
-        <id>https://lightfom.github.io/post/shu-xue-xiao-suan-fa/</id>
-        <link href="https://lightfom.github.io/post/shu-xue-xiao-suan-fa/">
+        <id>https://wrp.github.io/post/shu-xue-xiao-suan-fa/</id>
+        <link href="https://wrp.github.io/post/shu-xue-xiao-suan-fa/">
         </link>
         <updated>2020-10-16T08:04:10.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[图论学习笔记]]></title>
-        <id>https://lightfom.github.io/post/tu-lun-xue-xi-bi-ji/</id>
-        <link href="https://lightfom.github.io/post/tu-lun-xue-xi-bi-ji/">
+        <id>https://wrp.github.io/post/tu-lun-xue-xi-bi-ji/</id>
+        <link href="https://wrp.github.io/post/tu-lun-xue-xi-bi-ji/">
         </link>
         <updated>2020-10-16T08:03:37.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[题解 Luogu P4233 【射命丸文的笔记】]]></title>
-        <id>https://lightfom.github.io/post/ti-jie-luogu-p4233-she-ming-wan-wen-de-bi-ji/</id>
-        <link href="https://lightfom.github.io/post/ti-jie-luogu-p4233-she-ming-wan-wen-de-bi-ji/">
+        <id>https://wrp.github.io/post/ti-jie-luogu-p4233-she-ming-wan-wen-de-bi-ji/</id>
+        <link href="https://wrp.github.io/post/ti-jie-luogu-p4233-she-ming-wan-wen-de-bi-ji/">
         </link>
         <updated>2020-10-16T08:03:10.000Z</updated>
     </entry>
