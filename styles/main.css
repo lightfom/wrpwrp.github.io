@@ -2172,11 +2172,7 @@ p > code {
     .brand {
       background: #000000b2;
     }
-    
-      .brand {
-        font-weight: bold;
-        transform: scale(2);
-      }.main-title, .brand {
+    .main-title, .brand {
       color: #FFF !important;
     }
     .mist .site-title i {
